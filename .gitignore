@@ -1,0 +1,62 @@
+# ==============================================================================
+# VIDEOTEXT STUDIO - .gitignore
+# Capstone Project Kelompok 4
+# ==============================================================================
+
+# Video & Large Media Files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+salah.mp4
+videotext/Video/*
+!videotext/Video/.gitkeep
+web_app/uploads/*
+!web_app/uploads/.gitkeep
+
+# Docker (Tidak digunakan)
+Dockerfile
+docker-compose.yml
+
+# Database & Runtime States
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+web_app/videotext_studio.db
+
+# Processing Outputs & Temporary Files
+output/
+output_unified/
+videotext/output/
+temp_frames/
+*.log
+
+# Python Virtual Environments & Bytecode Cache
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+
+# Frontend (Node.js & Vite)
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+.npm/
+
+# IDE & OS Metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+ehthumbs.db
+~$*.docx
+~$*.pptx

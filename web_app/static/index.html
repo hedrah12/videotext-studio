@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>videotext Studio / v1.0 - Video OCR &amp; Subtitle Typo QA</title>
+    <meta name="description" content="videotext Studio v1.0 - OCR-powered subtitle extraction and bilingual typo detection for short-form content. Built with React and Python.">
+    
+    <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Design System CSS -->
+    <link rel="stylesheet" href="/static/css/style.css">
+
+    <!-- React 18 & ReactDOM 18 -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    
+    <!-- Babel Standalone (to compile JSX seamlessly in browser) -->
+    <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <!-- React Root Mount Container -->
+    <div id="root">
+        <!-- Loading Skeleton / Offline Fallback -->
+        <div style="display: flex; height: 100vh; background-color: #080c14; color: #94a3b8; align-items: center; justify-content: center; font-family: 'Plus Jakarta Sans', sans-serif;">
+            <div style="text-align: center;">
+                <div style="width: 48px; height: 48px; border-radius: 12px; background: linear-gradient(135deg, #a78bfa 0%, #7c3aed 100%); color: white; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 24px; margin: 0 auto 16px auto; box-shadow: 0 4px 14px rgba(124, 58, 237, 0.4);">
+                    V
+                </div>
+                <h2 style="color: #ffffff; font-size: 18px; margin-bottom: 6px;">videotext Studio / v1.0</h2>
+                <p style="font-size: 13px; color: #64748b;">Memuat Antarmuka React &amp; Sistem OCR...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- React Application Logic -->
+    <script type="text/babel" src="/static/js/app.jsx"></script>
+</body>
+</html>

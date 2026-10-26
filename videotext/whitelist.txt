@@ -1,0 +1,29 @@
+# ==============================================================================
+# DAFTAR WHITELIST KUSTOM (KATA GAUL, BAHASA INGGRIS, NAMA BRAND & ISTILAH KHUSUS)
+# ==============================================================================
+# Berkas ini dibaca secara otomatis oleh typo_checker.py dan video_subtitle_reader.py.
+# Anda dapat menambahkan kata baru (satu kata per baris atau dipisah koma/spasi).
+# Baris yang diawali tanda pagar (#) diabaikan sebagai komentar.
+#
+# Contoh:
+# 1. Nama Brand / Merek:
+#    skintific, somethinc, wardah, kahf, avoskin, emina, azarine, whitelab, scarlett
+#
+# 2. Bahasa Gaul & Slang Tambahan:
+#    gacor, slebew, ygy, tbtb, tbl, otw, jujurly, seblak, mukbang, spill
+#
+# 3. Istilah Bahasa Inggris / Konten:
+#    unboxing, swatches, review, hack, tips, dupe, flawless, aesthetic, classy
+
+# --- Tambahkan kata-kata kustom Anda di bawah garis ini ---
+skintific
+somethinc
+wardah
+kahf
+sariayu
+tanjung
+emina
+ygy
+slebew
+flawless
+

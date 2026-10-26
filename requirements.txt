@@ -1,0 +1,21 @@
+# ==============================================================================
+# VIDEOTEXT STUDIO v1.0 - PYTHON DEPENDENCIES
+# Capstone Project Kelompok 4
+# "Pengembangan Sistem Ekstraksi Subtitle Video dan Deteksi Kesalahan Penulisan
+#  Berbasis OCR dan NLP untuk Konten Agensi"
+# ==============================================================================
+
+# Computer Vision & Video Frame Extraction
+# Catatan: Gunakan opencv-python-headless di server Linux agar tidak membutuhkan libGL/X11
+opencv-python-headless>=4.8.0.76
+
+# Mesin OCR Deep Learning (DBNet + SVTR/CRNN) berbasis ONNX Runtime
+rapidocr-onnxruntime>=1.3.8
+onnxruntime>=1.16.0
+
+# Natural Language Processing & Deteksi Typo Bilingual (Bahasa Indonesia & Inggris)
+PySastrawi>=1.2.0
+pyspellchecker>=0.7.2
+
+# Utilitas Tambahan
+numpy>=1.23.0
